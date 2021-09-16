@@ -2,24 +2,322 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Minds & Souls</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mind & Souls</title>
 </head>
 
 <body>
-  <header class="header">
-    <h1>Welcome to our website</h1>
-  </header>
-  <main class="main">
+    <nav>
+        <div class="navbar">
+            <div class="left">
+                <div class="hamburger">
+                    <div class="firstbar"></div>
+                    <div class="secondbar"></div>
+                </div>
+                <div class="logo">Navbar</div>
+            </div>
+            <div class="right">
+                <ul>
+                    <li class="links"><a href="#home">Home</a></li>
+                    <li class="links"><a href="#gallery">Gallery</a></li>
+                    <li class="links"><a href="#services">Services</a></li>
+                    <li class="links"><a href="#about">About</a></li>
+                    <li class="links"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+    </nav>
+    <div class="nav-mobile">
+        <div class="nav-mobile-links">
+            <ul>
+                <li class="mobile-links"><a href="#">Home</a></li>
+                <li class="mobile-links"><a href="#gallery">Gallery</a></li>
+                <li class="mobile-links"><a href="#services">Services</a></li>
+                <li class="mobile-links"><a href="#about">About</a></li>
+                <li class="mobile-links"><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="close-btn">
+            <img src="images/close.png" alt="">
+        </div>
+    </div>
+    </div>
+    <div class="container">
+        <div class="intro">
 
-  </main>
-  <footer class="footer">
+            <h1>Two words</h1>
+            <h1>two words</h1>
+            <h1>lorem</h1>
+            <div class="intro-subtext-container">
+                <p class="text-content">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                <p class="text-content">Ex vitae incidunt alias consequatur dolorum,</p>
+                <p class="text-content"> Autem consectetur nisi magnam,  quae ad.</p>
+            </div>
+            <div class="quote-container">
+                <p class="quote">“Productivity is never an accident. It is always the result of a commitment to
+                    excellence, intelligent</p>
+                <p class="quote">planning, and focused effort.”</p>
+                <p class="author">Paul J. Meyer</p>
+            </div>
 
-  </footer>
-  <script src="js/index.js"></script>
+        </div>
+        <div class="border-image">
+            <img src="images/209-2095958_mind-wallpaper.jpg" alt="">
+        </div>
+
+
+        <div class="gallery" id="gallery">
+            <div class="gallery-text">
+                <h1>Gallery</h1>
+                <div class="intro-subtext-container">
+                    <p class="text-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime modi facilis a molestias ipsum, perferendis dolor dicta dolorem voluptates. Nesciunt eveniet accusantium repellendus quis ullam itaque aperiam voluptatem harum illum.
+                    </p>
+
+                </div>
+            </div>
+            <div class="grid">
+                <div class="column1">
+                    <img src="images/209-2095958_mind-wallpaper.jpg" alt="" class="item1">
+                </div>
+                <div class="column2">
+                    <img src="images/wp5193725.jpg" alt="" class="item2">
+                    <img src="images/9ebc5ec9-brain.jpg" alt="" class="item3">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="services-container" id="services">
+            <div class="services-content">
+                <h1>Our services</h1>
+                <p class="text-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam harum provident perferendis dolore voluptates, praesentium quam ni</p>
+            </div>
+            <div class="services-grid-container">
+                <div id="service-ceremony-container" class="services-image-container">
+                    <span class="service-title-ceremony"><img width="16px" src="images/icon.png" alt="">
+                        Service</span>
+                    <img src="images/993340ead5f9e949e4cdc9fe355d3637.jpg" alt="" class="services-photo services-image-ceremony">
+                </div>
+
+                <div id="service-catering-container" class="services-image-container">
+                    <span class="service-title-catering"><img width="16px" src="images/icon.png" alt="">Service</span>
+                    <img src="images/993340ead5f9e949e4cdc9fe355d3637.jpg" alt="" class="services-photo services-image-catering">
+                </div>
+
+                <div id="service-photo-container" class="services-image-container">
+                    <span class="service-title-photo"><img width="16px" src="images/icon.png" alt="">Service</span>
+                    <img src="images/993340ead5f9e949e4cdc9fe355d3637.jpg" alt="" class="services-photo services-image-photo">
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="about-container" id="about">
+            <div class="about-column1">
+                <img class="column1-intro-img" src="images/209-2096066_vk478-mind-wallpapers-px-4usky.jpg" alt="">
+                <h1>We are</h1>
+                <p class="about-text text-content">
+                    We are so experienced in this field that we give our best in every event and make it unique. We try
+                    not to repeat ourselves in each and every event.
+                </p>
+                <p class="about-text text-content">It is the result of our work that we have a good name in this field.
+                    We do what we can do to make your event special and unique either it is a big function like marriage
+                    or small one like someone's anniversary.</p>
+                <p class="about-text text-content">
+                    We offer different kinds of ideas for your event. We are always honest with you. We know the worth
+                    of every penny.
+                </p>
+
+                <img src="images/leaves-group.png" alt="" class="leaves-group">
+
+            </div>
+            <div class="about-column2">
+                <p class="text-content">We strongly believe that your event should be great, and we go above and beyond
+                    to make your dream day more than you could ever umagined.</p>
+                <img src="images/60a4f85884017b001f225702.jpg" alt="">
+            </div>
+
+        </div>
+
+
+        <div class="carousel-container">
+            <h1>Testimonials</h1>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+
+                        <div class="carousel">
+                            <div class="carousel-image-container">
+                                <img class="carousel-images" src="images/avatar.jpg" alt="">
+                                <p class="profile-name">First Last</p>
+                                <p class="caption">Position</p>
+
+                            </div>
+                            <p class="profile-brief">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam
+                                blanditiis expedita incidunt
+                                quam corrupti ipsum at sit culpa</p>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+
+                        <div class="carousel">
+                            <div class="carousel-image-container">
+                                <img class="carousel-images" src="images/avatar.jpg" alt="">
+                                <p class="profile-name">First Last</p>
+                                <p class="caption">Position</p>
+
+                            </div>
+                            <p class="profile-brief">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam
+                                blanditiis expedita incidunt
+                                quam corrupti ipsum at sit culpa</p>
+                        </div>
+
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel">
+                            <div class="carousel-image-container">
+                                <img class="carousel-images" src="images/avatar.jpg" alt="">
+                                <p class="profile-name">First Last</p>
+                                <p class="caption">Position</p>
+
+                            </div>
+                            <p class="profile-brief">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam
+                                blanditiis expedita incidunt
+                                quam corrupti ipsum at sit culpa</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+
+        </div>
+
+
+
+
+        <div class="contact-container" id="contact">
+            <div class="contact">
+                <h1>Contact-us</h1>
+                <p class="contact-no text-content">123-456-7830</p>
+                <a href="tel:+11234567890"><span>Call us</span></a>
+                <p>Or fill out this form</p>
+                <form id="form">
+                    <div class="form">
+                        <label for="from_name">Your Name</label>
+                        <input autocomplete="off" type="text" name="from_name" id="from_name"
+                            placeholder="Enter Your Name">
+                    </div>
+                    <div class="form">
+                        <label for="reply_to">Email</label>
+                        <input autocomplete="off" type="text" name="reply_to" id="reply_to"
+                            placeholder="Enter Your Name">
+                    </div>
+                    <div class="form">
+                        <label for="to_name">Phone No.</label>
+                        <input autocomplete="off" type="text" name="to_name" id="to_name" placeholder="Enter Your Name">
+                    </div>
+                    <div class="form">
+                        <label for="from_name">Message</label>
+                        <textarea name="message" id="message" placeholder="Your Message Here"></textarea>
+                    </div>
+                    <div class="send">
+                        <input class="send-btn" type="submit" id="button" value="Send Email">
+                    </div>
+                </form>
+            </div>
+            <div class="contact-img">
+                <img src="images/unnamed.jpg" alt="">
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+    <footer>
+
+        ©Anybody
+        <ul class="social">
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+
+
+        <ul class="navigation">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+
+        <ul class="formalities">
+            <li><a href="#">Disclaimer</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+        </ul>
+
+    </footer>
+
+
+    <img class="leave1" src="images/leave1.png" alt="">
+    <img src="images/leave2.png" alt="" class="leave2">
+    <img src="images/bubble.png" alt="" class="bubble">
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script src="/js/userId.js"></script>
+    <script src="/js/email.js"></script>
 </body>
 
 </html>
